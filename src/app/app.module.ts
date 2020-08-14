@@ -18,6 +18,7 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
 import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
     DropDownDirective,
     RecipeStartComponent,
     RecipeEditComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
