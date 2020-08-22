@@ -1,4 +1,3 @@
-import { AuthService } from './auth.service';
 import { User } from './user.model';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';

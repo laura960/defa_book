@@ -1,3 +1,5 @@
+import { PlaceHolderDirective } from './shared/placeholder/placeholder.directive';
+import { AlertComponent } from './shared/alert/alert.component';
 import { AuthGuard } from './auth/auth.guard';
 import { AuthInterceptorService } from './auth/auth-interceptor.service';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner';
@@ -39,6 +41,8 @@ import { AuthComponent } from './auth/auth.component';
     RecipeEditComponent,
     AuthComponent,
     LoadingSpinnerComponent,
+    AlertComponent,
+    PlaceHolderDirective,
   ],
   imports: [
     BrowserModule,
@@ -60,5 +64,8 @@ import { AuthComponent } from './auth/auth.component';
     AuthGuard,
   ],
   bootstrap: [AppComponent],
+  entryComponents: [
+    AlertComponent,
+  ]
 })
 export class AppModule {}
